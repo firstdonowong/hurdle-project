@@ -1,0 +1,12 @@
+//ISO 8601 date format is 2017-01-02 for today (2 Jan 2017)
+
+//need to read getElementByID()
+
+<--
+.vimrc settings
+set number
+set ts=2
+set expandtab
+syntax on
+set si
+-->
