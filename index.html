@@ -10,6 +10,8 @@
 </head>
 
 <body>
+<span style="font-family:serif;">
+  //ok I have no idea why this doesn't work but nice CSS isn't my priority right now
   <h2>Please choose your rotations</h2>
 
 
@@ -40,20 +42,29 @@
     R6</p>
 
 
-    <p><input name="submit" type="submit" value="submit">
+    <p><input name="Submit" type="submit" value="submit">
     </p>
   </form>
+</span>
 
   <script type="text/javascript">
 function validate() {
-
-//if ("aged" = "spec" || "aged" = "surg" || "aged" = "elec" || "spec" = "surg" || "spec" = "elec" || "surg" = "elec") {
-//return false;
-// alert("Please make sure all your rotations are different");
-//}
-// return true;
-
+ if ("aged" = "spec" || "aged" = "surg" || "aged" = "elec" || "spec" = "surg" || "spec" = "elec" || "surg" = "elec") {
+return false;
+ alert("Please make sure all your rotations are different");
+ }
+return true;
 }
-</script> -->
+</script>
+//running the script doesn't break anything, but also doesn't do anything useful. Do I need to declare methods to find the value of the releavnt input? 
+  
+<h2>Hurdles:</h2>
+
+<p> Continence:</p>
+
+ <script type="text/javascript">
+var r =document.getElementById("age");
+document.createTexNode("foo")
+</script>
 </body>
 </html>
